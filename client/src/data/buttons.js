@@ -1,0 +1,20 @@
+export const calculatorButtons = [
+  { label: "C", action: "clear", variant: "secondary" },
+  { label: "DEL", action: "delete", variant: "secondary" },
+  { label: "/", value: "/", action: "append", variant: "operator" },
+  { label: "*", value: "*", action: "append", variant: "operator" },
+  { label: "7", value: "7", action: "append" },
+  { label: "8", value: "8", action: "append" },
+  { label: "9", value: "9", action: "append" },
+  { label: "-", value: "-", action: "append", variant: "operator" },
+  { label: "4", value: "4", action: "append" },
+  { label: "5", value: "5", action: "append" },
+  { label: "6", value: "6", action: "append" },
+  { label: "+", value: "+", action: "append", variant: "operator" },
+  { label: "1", value: "1", action: "append" },
+  { label: "2", value: "2", action: "append" },
+  { label: "3", value: "3", action: "append" },
+  { label: "=", action: "calculate", variant: "equals" },
+  { label: "0", value: "0", action: "append", wide: true },
+  { label: ".", value: ".", action: "append" }
+];
